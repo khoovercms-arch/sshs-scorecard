@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.heat-none {
+  @apply bg-gray-200;
+}
+
+.heat-low {
+  @apply bg-blue-200;
+}
+
+.heat-medium {
+  @apply bg-yellow-300;
+}
+
+.heat-high {
+  @apply bg-orange-400;
+}
+
+.heat-very-high {
+  @apply bg-red-600;
+}

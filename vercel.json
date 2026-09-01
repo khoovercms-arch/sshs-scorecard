@@ -1,0 +1,10 @@
+{
+  "buildCommand": "npm run build",
+  "devCommand": "npm run dev",
+  "outputDirectory": "dist",
+  "framework": "vite",
+  "env": {
+    "VITE_SUPABASE_URL": "@sshs_supabase_url",
+    "VITE_SUPABASE_ANON_KEY": "@sshs_supabase_anon_key"
+  }
+}
